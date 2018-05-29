@@ -1,0 +1,8 @@
+Feature: Cucumber
+  I want to use this template for my feature file
+
+  Scenario: Login
+    Given I want to open the intranet
+    And  I write the username and password
+    When  I click on the login button
+    Then I login in the intranet page
