@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
  */
 
 //@RunWith(Cucumber.class)
-@CucumberOptions(features = {"src/test/java/feature"}, glue = {"src/test/java/loginCase/Login_Step.java"})
+@CucumberOptions(features = {"src/test/java/feature"}, glue = "loginCase")
 public class TestRunner extends AbstractTestNGCucumberTests{
 
 }
