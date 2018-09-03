@@ -53,7 +53,7 @@ public class Login_Step {
 	@And("^I write the username and password$")
 	public void iWriteTheUsernameAndPassword() throws Throwable {
 		driver.findElement(By.id("usuario")).sendKeys("SS36739794");
-		driver.findElement(By.id("password")).sendKeys("intranet07");
+		driver.findElement(By.id("password")).sendKeys("intranet08");
 	}
 
 	@When("^I click on the login button$")
