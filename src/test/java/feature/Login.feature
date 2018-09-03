@@ -1,5 +1,5 @@
-Feature: Cucumber
-  I want to use this template for my feature file
+Feature: Cucumber-LoginIntranet
+  Login in the OSDE intranet
 
   Scenario: Login
     Given I want to open the intranet
